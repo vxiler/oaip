@@ -1,7 +1,3 @@
-
-
-
-
 #include <iostream>
 using namespace std;
 
@@ -11,31 +7,31 @@ int main() {
     char op;
 
   
-    cout << "Âûáåðèòå îïåðàöèþ: ";
+    cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸ÑŽ: ";
     cin >> op;
 
-    cout << "Ââåäèòå äâà ÷èñëà: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: ";
     cin >> num1 >> num2;
 
     if (op == '+') {
-        cout << "Ðåçóëüòàò: " << num1 << " + " << num2 << " = " << num1 + num2;
+        cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << num1 << " + " << num2 << " = " << num1 + num2;
     }
     else if (op == '-') {
-        cout << "Ðåçóëüòàò: " << num1 << " - " << num2 << " = " << num1 - num2;
+        cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << num1 << " - " << num2 << " = " << num1 - num2;
     }
     else if (op == '*') {
-        cout << "Ðåçóëüòàò: " << num1 << " * " << num2 << " = " << num1 * num2;
+        cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << num1 << " * " << num2 << " = " << num1 * num2;
     }
     else if (op == '/') {
-        if (num2 == 0) cout << "Äåëèòü íà 0 íåëüçÿ!";
-        else cout << "Ðåçóëüòàò: " << num1 << " / " << num2 << " = " << num1 / num2;
+        if (num2 == 0) cout << "Ð”ÐµÐ»Ð¸Ñ‚ÑŒ Ð½Ð° 0 Ð½ÐµÐ»ÑŒÐ·Ñ!";
+        else cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << num1 << " / " << num2 << " = " << num1 / num2;
     }
     else if (op == '%') {
-        if ((int)num2 == 0) cout << "Äåëèòü íà 0 íåëüçÿ!";
-        else cout << "Ðåçóëüòàò: " << (int)num1 << " % " << (int)num2 << " = " << ((int)num1 % (int)num2);
+        if ((int)num2 == 0) cout << "Ð”ÐµÐ»Ð¸Ñ‚ÑŒ Ð½Ð° 0 Ð½ÐµÐ»ÑŒÐ·Ñ!";
+        else cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << (int)num1 << " % " << (int)num2 << " = " << ((int)num1 % (int)num2);
     }
     else {
-        cout << "Íåâåðíàÿ îïåðàöèÿ!";
+        cout << "ÐÐµÐ²ÐµÑ€Ð½Ð°Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ†Ð¸Ñ!";
     }
 
     return 0;
