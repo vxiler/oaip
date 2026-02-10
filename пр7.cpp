@@ -78,7 +78,7 @@ int main() {
 
     return 0;
 
-  int _;
-	cin >> _;
+  int _; cin >> _;
 }
+
 
