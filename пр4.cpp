@@ -15,7 +15,7 @@ int main() {
 		cout << "решите пример: " << number << " х " << a << endl;
 		int answ;
 		cin >> answ;
-		if (answ = number * a) {
+		if (answ == number * a) {
 			cout << "ответ: " << answ << endl;
 			cout << "пример решен правильно!" << endl;
 			a = a + 1;
@@ -29,3 +29,4 @@ int main() {
 	int _;
 	cin >> _;
 }
+
