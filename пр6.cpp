@@ -39,4 +39,8 @@ int main() {
 	}
 
 	return 0;
+
+	int _;
+	cin >> _;
 }
+
