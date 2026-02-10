@@ -6,56 +6,56 @@ int main() {
 
 	int menu;
 
-	cout << "Переводчик" << endl;
-	cout << "[ 1 ] Русские слова" << endl;
-	cout << "[ 2 ] Английские слова" << endl;
-	cout << "[ 3 ] Выйти" << endl;
-	cout << "Выберите пункт: ";
+	cout << "ГЏГҐГ°ГҐГўГ®Г¤Г·ГЁГЄ" << endl;
+	cout << "[ 1 ] ГђГіГ±Г±ГЄГЁГҐ Г±Г«Г®ГўГ " << endl;
+	cout << "[ 2 ] ГЂГ­ГЈГ«ГЁГ©Г±ГЄГЁГҐ Г±Г«Г®ГўГ " << endl;
+	cout << "[ 3 ] Г‚Г»Г©ГІГЁ" << endl;
+	cout << "Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЇГіГ­ГЄГІ: ";
 	cin >> menu;
 
 	switch (menu) {
 	case 1: {
 		int word;
 
-		cout << "Переводчик \"Список русских слов\"" << endl;
-		cout << "[ 1 ] Дом" << endl;
-		cout << "[ 2 ] Дорога" << endl;
-		cout << "[ 3 ] Книга" << endl;
-		cout << "[ 4 ] Окно" << endl;
-		cout << "[ 5 ] Стол" << endl;
-		cout << "[ 6 ] Вода" << endl;
-		cout << "[ 7 ] Солнце" << endl;
-		cout << "[ 8 ] Ночь" << endl;
-		cout << "[ 9 ] Город" << endl;
-		cout << "[ 10 ] Машина" << endl;
-		cout << "[ 11 ] Телефон" << endl;
-		cout << "[ 12 ] Работа" << endl;
-		cout << "[ 13 ] Еда" << endl;
-		cout << "[ 14 ] Друг" << endl;
-		cout << "[ 15 ] Время" << endl;
+		cout << "ГЏГҐГ°ГҐГўГ®Г¤Г·ГЁГЄ \"Г‘ГЇГЁГ±Г®ГЄ Г°ГіГ±Г±ГЄГЁГµ Г±Г«Г®Гў\"" << endl;
+		cout << "[ 1 ] Г„Г®Г¬" << endl;
+		cout << "[ 2 ] Г„Г®Г°Г®ГЈГ " << endl;
+		cout << "[ 3 ] ГЉГ­ГЁГЈГ " << endl;
+		cout << "[ 4 ] ГЋГЄГ­Г®" << endl;
+		cout << "[ 5 ] Г‘ГІГ®Г«" << endl;
+		cout << "[ 6 ] Г‚Г®Г¤Г " << endl;
+		cout << "[ 7 ] Г‘Г®Г«Г­Г¶ГҐ" << endl;
+		cout << "[ 8 ] ГЌГ®Г·Гј" << endl;
+		cout << "[ 9 ] ГѓГ®Г°Г®Г¤" << endl;
+		cout << "[ 10 ] ГЊГ ГёГЁГ­Г " << endl;
+		cout << "[ 11 ] Г’ГҐГ«ГҐГґГ®Г­" << endl;
+		cout << "[ 12 ] ГђГ ГЎГ®ГІГ " << endl;
+		cout << "[ 13 ] Г…Г¤Г " << endl;
+		cout << "[ 14 ] Г„Г°ГіГЈ" << endl;
+		cout << "[ 15 ] Г‚Г°ГҐГ¬Гї" << endl;
 
-		cout << "Выберите номер слова: ";
+		cout << "Г‚Г»ГЎГҐГ°ГЁГІГҐ Г­Г®Г¬ГҐГ° Г±Г«Г®ГўГ : ";
 		cin >> word;
 
 		switch (word) {
-		case 1:  cout << "Перевод: дом > house" << endl; break;
-		case 2:  cout << "Перевод: дорога > road" << endl; break;
-		case 3:  cout << "Перевод: книга > book" << endl; break;
-		case 4:  cout << "Перевод: окно > window" << endl; break;
-		case 5:  cout << "Перевод: стол > table" << endl; break;
-		case 6:  cout << "Перевод: вода > water" << endl; break;
-		case 7:  cout << "Перевод: солнце > sun" << endl; break;
-		case 8:  cout << "Перевод: ночь > night" << endl; break;
-		case 9:  cout << "Перевод: город > city" << endl; break;
-		case 10: cout << "Перевод: машина > car" << endl; break;
-		case 11: cout << "Перевод: телефон > phone" << endl; break;
-		case 12: cout << "Перевод: работа > work" << endl; break;
-		case 13: cout << "Перевод: еда > food" << endl; break;
-		case 14: cout << "Перевод: друг > friend" << endl; break;
-		case 15: cout << "Перевод: время > time" << endl; break;
+		case 1:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г¤Г®Г¬ > house" << endl; break;
+		case 2:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г¤Г®Г°Г®ГЈГ  > road" << endl; break;
+		case 3:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: ГЄГ­ГЁГЈГ  > book" << endl; break;
+		case 4:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г®ГЄГ­Г® > window" << endl; break;
+		case 5:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г±ГІГ®Г« > table" << endl; break;
+		case 6:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: ГўГ®Г¤Г  > water" << endl; break;
+		case 7:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г±Г®Г«Г­Г¶ГҐ > sun" << endl; break;
+		case 8:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г­Г®Г·Гј > night" << endl; break;
+		case 9:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: ГЈГ®Г°Г®Г¤ > city" << endl; break;
+		case 10: cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г¬Г ГёГЁГ­Г  > car" << endl; break;
+		case 11: cout << "ГЏГҐГ°ГҐГўГ®Г¤: ГІГҐГ«ГҐГґГ®Г­ > phone" << endl; break;
+		case 12: cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г°Г ГЎГ®ГІГ  > work" << endl; break;
+		case 13: cout << "ГЏГҐГ°ГҐГўГ®Г¤: ГҐГ¤Г  > food" << endl; break;
+		case 14: cout << "ГЏГҐГ°ГҐГўГ®Г¤: Г¤Г°ГіГЈ > friend" << endl; break;
+		case 15: cout << "ГЏГҐГ°ГҐГўГ®Г¤: ГўГ°ГҐГ¬Гї > time" << endl; break;
 
 		default:
-			cout << "[ ! ] Неправильно введен номер слова!" << endl;
+			cout << "[ ! ] ГЌГҐГЇГ°Г ГўГЁГ«ГјГ­Г® ГўГўГҐГ¤ГҐГ­ Г­Г®Г¬ГҐГ° Г±Г«Г®ГўГ !" << endl;
 			break;
 		}
 		break;
@@ -64,7 +64,7 @@ int main() {
 	case 2: {
 		int word;
 
-		cout << "Переводчик \"Список английских слов\"" << endl;
+		cout << "ГЏГҐГ°ГҐГўГ®Г¤Г·ГЁГЄ \"Г‘ГЇГЁГ±Г®ГЄ Г Г­ГЈГ«ГЁГ©Г±ГЄГЁГµ Г±Г«Г®Гў\"" << endl;
 		cout << "[ 1 ] House" << endl;
 		cout << "[ 2 ] Road" << endl;
 		cout << "[ 3 ] Book" << endl;
@@ -81,41 +81,45 @@ int main() {
 		cout << "[ 14 ] Friend" << endl;
 		cout << "[ 15 ] Time" << endl;
 
-		cout << "Выберите номер слова: ";
+		cout << "Г‚Г»ГЎГҐГ°ГЁГІГҐ Г­Г®Г¬ГҐГ° Г±Г«Г®ГўГ : ";
 		cin >> word;
 
 		switch (word) {
-		case 1:  cout << "Перевод: house -> дом" << endl; break;
-		case 2:  cout << "Перевод: road -> дорога" << endl; break;
-		case 3:  cout << "Перевод: book -> книга" << endl; break;
-		case 4:  cout << "Перевод: window -> окно" << endl; break;
-		case 5:  cout << "Перевод: table -> стол" << endl; break;
-		case 6:  cout << "Перевод: water -> вода" << endl; break;
-		case 7:  cout << "Перевод: sun -> солнце" << endl; break;
-		case 8:  cout << "Перевод: night -> ночь" << endl; break;
-		case 9:  cout << "Перевод: city -> город" << endl; break;
-		case 10: cout << "Перевод: car -> машина" << endl; break;
-		case 11: cout << "Перевод: phone -> телефон" << endl; break;
-		case 12: cout << "Перевод: work -> работа" << endl; break;
-		case 13: cout << "Перевод: food -> еда" << endl; break;
-		case 14: cout << "Перевод: friend -> друг" << endl; break;
-		case 15: cout << "Перевод: time -> время" << endl; break;
+		case 1:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: house -> Г¤Г®Г¬" << endl; break;
+		case 2:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: road -> Г¤Г®Г°Г®ГЈГ " << endl; break;
+		case 3:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: book -> ГЄГ­ГЁГЈГ " << endl; break;
+		case 4:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: window -> Г®ГЄГ­Г®" << endl; break;
+		case 5:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: table -> Г±ГІГ®Г«" << endl; break;
+		case 6:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: water -> ГўГ®Г¤Г " << endl; break;
+		case 7:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: sun -> Г±Г®Г«Г­Г¶ГҐ" << endl; break;
+		case 8:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: night -> Г­Г®Г·Гј" << endl; break;
+		case 9:  cout << "ГЏГҐГ°ГҐГўГ®Г¤: city -> ГЈГ®Г°Г®Г¤" << endl; break;
+		case 10: cout << "ГЏГҐГ°ГҐГўГ®Г¤: car -> Г¬Г ГёГЁГ­Г " << endl; break;
+		case 11: cout << "ГЏГҐГ°ГҐГўГ®Г¤: phone -> ГІГҐГ«ГҐГґГ®Г­" << endl; break;
+		case 12: cout << "ГЏГҐГ°ГҐГўГ®Г¤: work -> Г°Г ГЎГ®ГІГ " << endl; break;
+		case 13: cout << "ГЏГҐГ°ГҐГўГ®Г¤: food -> ГҐГ¤Г " << endl; break;
+		case 14: cout << "ГЏГҐГ°ГҐГўГ®Г¤: friend -> Г¤Г°ГіГЈ" << endl; break;
+		case 15: cout << "ГЏГҐГ°ГҐГўГ®Г¤: time -> ГўГ°ГҐГ¬Гї" << endl; break;
 
 		default:
-			cout << "Неправильно введен номер слова!" << endl;
+			cout << "ГЌГҐГЇГ°Г ГўГЁГ«ГјГ­Г® ГўГўГҐГ¤ГҐГ­ Г­Г®Г¬ГҐГ° Г±Г«Г®ГўГ !" << endl;
 			break;
 		}
 		break;
 	}
 
 	case 3:
-		cout << "Выход" << endl;
+		cout << "Г‚Г»ГµГ®Г¤" << endl;
 		break;
 
 	default:
-		cout << "Неправильно выбран пункт меню!" << endl;
+		cout << "ГЌГҐГЇГ°Г ГўГЁГ«ГјГ­Г® ГўГ»ГЎГ°Г Г­ ГЇГіГ­ГЄГІ Г¬ГҐГ­Гѕ!" << endl;
 		break;
 	}
 
 	return 0;
+
+	int _;
+	cin >> _;
+
 }
