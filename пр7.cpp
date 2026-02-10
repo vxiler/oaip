@@ -2,79 +2,79 @@
 using namespace std;
 
 int main() {
-	setlocale(0, "");
+    setlocale(0, "");
 
-	int month, day;
+    int month, day;
 
-	cout << "Ęŕëĺíäŕđü" << endl;
-	cout << "[ 1 ] ßíâŕđü" << endl;
-	cout << "[ 2 ] Ôĺâđŕëü" << endl;
-	cout << "[ 3 ] Ěŕđň" << endl;
-	cout << "[ 4 ] Ŕďđĺëü" << endl;
-	cout << "[ 5 ] Ěŕé" << endl;
-	cout << "[ 6 ] Čţíü" << endl;
-	cout << "[ 7 ] Čţëü" << endl;
-	cout << "[ 8 ] Ŕâăóńň" << endl;
-	cout << "[ 9 ] Ńĺíň˙áđü" << endl;
-	cout << "[ 10 ] Îęň˙áđü" << endl;
-	cout << "[ 11 ] Íî˙áđü" << endl;
-	cout << "[ 12 ] Äĺęŕáđü" << endl;
+    cout << "[ + ] Календарь" << endl;
+    cout << "[ 1 ] Январь" << endl;
+    cout << "[ 2 ] Февраль" << endl;
+    cout << "[ 3 ] Март" << endl;
+    cout << "[ 4 ] Апрель" << endl;
+    cout << "[ 5 ] Май" << endl;
+    cout << "[ 6 ] Июнь" << endl;
+    cout << "[ 7 ] Июль" << endl;
+    cout << "[ 8 ] Август" << endl;
+    cout << "[ 9 ] Сентябрь" << endl;
+    cout << "[ 10 ] Октябрь" << endl;
+    cout << "[ 11 ] Ноябрь" << endl;
+    cout << "[ 12 ] Декабрь" << endl;
 
-	cout << "Âűáĺđčňĺ ěĺń˙ö: ";
-	cin >> month;
+    cout << "[ + ] Выберите месяц: ";
+    cin >> month;
 
-	switch (month) {
-	case 1:  cout << "Âűáđŕí ěĺń˙ö - \"ßíâŕđü\"" << endl; break;
-	case 2:  cout << "Âűáđŕí ěĺń˙ö - \"Ôĺâđŕëü\"" << endl; break;
-	case 3:  cout << "Âűáđŕí ěĺń˙ö - \"Ěŕđň\"" << endl; break;
-	case 4:  cout << "Âűáđŕí ěĺń˙ö - \"Ŕďđĺëü\"" << endl; break;
-	case 5:  cout << "Âűáđŕí ěĺń˙ö - \"Ěŕé\"" << endl; break;
-	case 6:  cout << "Âűáđŕí ěĺń˙ö - \"Čţíü\"" << endl; break;
-	case 7:  cout << "Âűáđŕí ěĺń˙ö - \"Čţëü\"" << endl; break;
-	case 8:  cout << "Âűáđŕí ěĺń˙ö - \"Ŕâăóńň\"" << endl; break;
-	case 9:  cout << "Âűáđŕí ěĺń˙ö - \"Ńĺíň˙áđü\"" << endl; break;
-	case 10: cout << "Âűáđŕí ěĺń˙ö - \"Îęň˙áđü\"" << endl; break;
-	case 11: cout << "Âűáđŕí ěĺń˙ö - \"Íî˙áđü\"" << endl; break;
-	case 12: cout << "Âűáđŕí ěĺń˙ö - \"Äĺęŕáđü\"" << endl; break;
+    switch (month) {
+        case 1:  cout << "[ + ] Выбран месяц - \"Январь\"" << endl; break;
+        case 2:  cout << "[ + ] Выбран месяц - \"Февраль\"" << endl; break;
+        case 3:  cout << "[ + ] Выбран месяц - \"Март\"" << endl; break;
+        case 4:  cout << "[ + ] Выбран месяц - \"Апрель\"" << endl; break;
+        case 5:  cout << "[ + ] Выбран месяц - \"Май\"" << endl; break;
+        case 6:  cout << "[ + ] Выбран месяц - \"Июнь\"" << endl; break;
+        case 7:  cout << "[ + ] Выбран месяц - \"Июль\"" << endl; break;
+        case 8:  cout << "[ + ] Выбран месяц - \"Август\"" << endl; break;
+        case 9:  cout << "[ + ] Выбран месяц - \"Сентябрь\"" << endl; break;
+        case 10: cout << "[ + ] Выбран месяц - \"Октябрь\"" << endl; break;
+        case 11: cout << "[ + ] Выбран месяц - \"Ноябрь\"" << endl; break;
+        case 12: cout << "[ + ] Выбран месяц - \"Декабрь\"" << endl; break;
 
-	default:
-		cout << "Íĺďđŕâčëüíî ââĺäĺí íîěĺđ ěĺń˙öŕ!" << endl;
-		return 0;
-	}
+        default:
+            cout << "[ ! ] Неправильно введен номер месяца!" << endl;
+            return 0;
+    }
 
-	cout << "Âűáĺđčňĺ äĺíü ěĺń˙öŕ: ";
-	cin >> day;
+    cout << "[ + ] Выберите день месяца: ";
+    cin >> day;
 
-	switch (day) {
-	case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
-	case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
-	case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 29: case 30:
-	case 31:
-		cout << "Ęŕëĺíäŕđü: " << day << " ";
+    switch (day) {
+        case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+        case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+        case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 29: case 30:
+        case 31:
+            cout << "[ + ] Календарь: " << day << " ";
 
-		switch (month) {
-		case 1:  cout << "˙íâŕđ˙."; break;
-		case 2:  cout << "ôĺâđŕë˙."; break;
-		case 3:  cout << "ěŕđňŕ."; break;
-		case 4:  cout << "ŕďđĺë˙."; break;
-		case 5:  cout << "ěŕ˙."; break;
-		case 6:  cout << "čţí˙."; break;
-		case 7:  cout << "čţë˙."; break;
-		case 8:  cout << "ŕâăóńňŕ."; break;
-		case 9:  cout << "ńĺíň˙áđ˙."; break;
-		case 10: cout << "îęň˙áđ˙."; break;
-		case 11: cout << "íî˙áđ˙."; break;
-		case 12: cout << "äĺęŕáđ˙."; break;
-		default: cout << "???"; break;
-		}
+            switch (month) {
+                case 1:  cout << "января."; break;
+                case 2:  cout << "февраля."; break;
+                case 3:  cout << "марта."; break;
+                case 4:  cout << "апреля."; break;
+                case 5:  cout << "мая."; break;
+                case 6:  cout << "июня."; break;
+                case 7:  cout << "июля."; break;
+                case 8:  cout << "августа."; break;
+                case 9:  cout << "сентября."; break;
+                case 10: cout << "октября."; break;
+                case 11: cout << "ноября."; break;
+                case 12: cout << "декабря."; break;
+                default: cout << "???"; break;
+            }
 
-		cout << endl;
-		break;
+            cout << endl;
+            break;
 
-	default:
-		cout << "Íĺďđŕâčëüíî ââĺäĺí äĺíü ěĺń˙öŕ!" << endl;
-		break;
-	}
+        default:
+            cout << "[ ! ] Неправильно введен день месяца!" << endl;
+            break;
+    }
 
-	return 0;
+    return 0;
 }
