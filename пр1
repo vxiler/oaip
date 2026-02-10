@@ -70,3 +70,4 @@ int main() {
  cout << "d_5 = " << f_5 << " | тип: float, размер: 8 байта" << endl << endl;
 
  int _; cin >> _;
+}
